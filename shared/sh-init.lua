@@ -1,7 +1,9 @@
 Bridge = exports.community_bridge:Bridge()
 
 for key, value in pairs(Bridge) do
-    load(key .. " = ...") (value)
+    if key ~= "Entity" then
+        load(key .. " = ...") (value)
+    end
 end
 
 function DebugPrint(...)

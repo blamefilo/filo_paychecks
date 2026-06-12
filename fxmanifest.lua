@@ -2,6 +2,7 @@ fx_version "cerulean"
 game "gta5"
 lua54 "yes"
 
+name "filo_paychecks"
 author "filo studios."
 discord "https://discord.gg/EWKWXVBHK7"
 repository "https://github.com/blamefilo/filo_paychecks"
